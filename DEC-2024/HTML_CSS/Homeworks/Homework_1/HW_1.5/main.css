@@ -1,0 +1,26 @@
+body {
+    background-image: url("../HW_1.5/image/cover/cover.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    width: 70%;
+    background-color: azure;
+}
+
+h1 {
+    margin-left: 500px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 300px;
+}
+
+h1, h2, h3, ul {
+    max-width: fit-content;
+    background-color: azure;
+}
+
+
