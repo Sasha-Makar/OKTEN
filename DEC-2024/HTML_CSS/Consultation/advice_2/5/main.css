@@ -1,0 +1,15 @@
+
+.img {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/ru/a/a5/%D0%A1%D0%B8%D0%BC%D0%BF%D1%81%D0%BE%D0%BD%D1%8B.png');
+    background-size: cover;
+    transition: 1s;
+}
+.img:hover {
+    background-image: url('https://gordonua.com/img/article/14799/39_big-v1576835513.png');
+    background-size: cover;
+    transition: 2s;
+}
+
+/*//display:none;*/

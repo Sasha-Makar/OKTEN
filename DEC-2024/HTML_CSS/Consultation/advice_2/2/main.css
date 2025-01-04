@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+}
+.item {
+    width: 50vw;
+    height: 50vh;
+    background-color: #668066;
+}
+.item-2 {
+    width: 50vw;
+    height: 50vh;
+    background-color: #666b80;
+}
+.green {
+    height: 30%;
+    width: 90%;
+    background-color: green;
+}
+p {
+    font-size: 4vw;
+}

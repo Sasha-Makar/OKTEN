@@ -1,0 +1,15 @@
+
+a {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    color: cornflowerblue;
+    margin-left: 50px;
+}
+a img {
+    width: 100%;
+}
+a p {
+    text-align: center;
+}

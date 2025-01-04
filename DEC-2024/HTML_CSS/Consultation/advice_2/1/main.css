@@ -1,0 +1,20 @@
+
+
+.wrap {
+    min-height: 70vh;
+    /*width: 90vw;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h1, h3 {
+    text-align: center;
+    margin: 50px 0;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+}
