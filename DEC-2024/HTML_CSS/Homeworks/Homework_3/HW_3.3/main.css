@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+p {
+    width: 70%;
+}
+
+.arrow {
+    font-size: 70px;
+    color: black;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#aqua {
+    background-color: aqua;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+}
+

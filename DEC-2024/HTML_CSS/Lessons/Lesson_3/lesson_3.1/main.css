@@ -1,0 +1,49 @@
+/*.div {*/
+/*    width: 10cm;*/
+/*    height: 10cm;*/
+/*    background-color: hotpink;*/
+/*}*/
+
+/*.div {*/
+/*    width: 10mm;*/
+/*    height: 10mm;*/
+/*    background-color: hotpink;*/
+/*}*/
+
+
+/*абсолютні одиниці вимірювання*/
+/*(cm,mm,px,дюйми,пункти,піки)*/
+/*'__________________________'*/
+
+/*відносні(відносно чогось) одиниці вимірювання*/
+
+
+
+/*.div {*/
+/*    width: 10%;*/
+/*    height: 10%;*/
+/*    background-color: hotpink;*/
+/*}*/
+
+/*.div {*/
+/*    width: 10vw;*/
+/*    height: 10vh;*/
+/*    background-color: hotpink;*/
+/*}*/
+/*.div {*/
+/*    width: 10vw;*/
+/*    height: 10vw;*/
+/*    background-color: hotpink;*/
+/*}*/
+/*html {*/
+/*    font-size: 20px;*/
+/*}*/
+/*p{*/
+/*    font-size: 1.5rem;*/
+/*}*/
+.div{
+    font-size: 25px;
+}
+p{
+    font-size: 0.2em;
+}

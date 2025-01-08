@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*--------------------header------------*/
+.active-link {
+    color: cornflowerblue;
+}
+header {
+    height: 10vh;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Orbitron", serif;
+}
+
+header div {
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: gray;
+    font-size: 20px;
+}
+
+/*---------------------------main------------------------*/
+
+main {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #57bbbf;
+}
+
+/*-------------------------section left------------------------*/
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    align-items: center;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icons {
+    height: 20px;
+    width: 20%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    transition: 1s;
+}
+.youtube:hover {
+    transform: scale(3);
+    transition: 2s;
+}
+.bebas {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer {
+    text-align: center;
+    transition: 1s;
+}
+.bat:hover {
+    display: inline-block;
+    color: black;
+    transform: scale(1.5);
+    transition: 2s;
+
+}
+
+
+/*---------------------section right------------------*/
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid;
+    outline: none;
+}
+
+.massage input {
+    height: 300px;
+    pointer-events: none;
+}
