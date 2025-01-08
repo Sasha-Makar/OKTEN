@@ -1,0 +1,16 @@
+
+section {
+    height: 60vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*gap: 30px;*/
+
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: #3a61ab;
+    border: 1px solid;
+}
