@@ -1,0 +1,3 @@
+<!--Figma. Приєднання до аккаунту
+ для отримання Professional plan та Dev mode-->
+ між lesson_4.2 та lesson_4.3

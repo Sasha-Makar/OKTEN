@@ -1,0 +1,12 @@
+
+video {
+    width: 50%;
+}
+iframe {
+    width: 50vw;
+    height: 50vh;
+    border: 10px solid pink;
+}
+video,audio {
+    border: 10px solid pink;
+}
