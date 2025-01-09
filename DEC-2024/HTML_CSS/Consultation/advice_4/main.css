@@ -1,0 +1,64 @@
+/*.bar {*/
+/*    overflow : hidden;*/
+/*}*/
+/*.bb {*/
+/*    overflow: scroll;*/
+/*}*/
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.buttons {
+    width: 344px;
+    height: 65px;
+    border-radius: 10px;
+    background: #F7F7FB;
+    padding: 5px 6px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.yearly {
+    width: 160px;
+    height: 55px;
+    border-radius: 10px 0 0 10px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    border: none;
+}
+
+.monthly {
+    width: 160px;
+    height: 55px;
+    border-radius: 10px 10px;
+    background: #F7F7FB;
+    color: black;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    border: none;
+}
+
+.yearly:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.monthly:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
