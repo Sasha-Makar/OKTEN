@@ -1,0 +1,71 @@
+
+.wrapper {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.wrapper img {
+    height: 200px;
+}
+.sun  {
+    height: 50px;
+    margin-right: 700px;
+}
+.boat {
+    animation: boat 3s ease-in-out infinite alternate;
+}
+.wave {
+    animation: wave 3s ease-in-out infinite alternate;
+}
+
+@keyframes boat {
+    from{
+        transform: translate(0,0);
+    }
+    10% {
+        transform: translate(30px, 10px);
+    }
+    20%{
+        transform: translate(60px,-15px);
+    }
+    30% {
+        transform: translate(90px,15px);
+    }
+    40% {
+        transform: translate(120px, -10px);
+    }
+    50% {
+        transform: translate(150px, 15px);
+    }
+    60% {
+        transform: translate(180px, -5px);
+    }
+    70% {
+        transform: translate(210px, 15px);
+    }
+    80% {
+        transform: translate(240px, -10px);
+    }
+    90% {
+        transform: translate(270px, 10px);
+    }
+    to{
+        transform: translate(300px, 0);
+    }
+}
+
+@keyframes wave {
+    from {
+        transform: skew(30deg);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: skew(-30deg);
+    }
+}

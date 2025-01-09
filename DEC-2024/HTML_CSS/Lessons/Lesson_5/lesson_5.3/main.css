@@ -1,0 +1,31 @@
+.pink-box {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 100px auto 0 auto;
+    animation: lorem 5s linear infinite alternate;
+}
+
+
+@keyframes lorem {
+    from{
+        /*transform: scale(1,2) ;*/
+        /*transform: scaleX(2) ;*/
+        /*transform: scaleY(2) ;*/
+        /*transform: skew(60deg) ;*/
+        /*transform: skewX(60deg) ;*/
+        /*transform: skewY(60deg) ;*/
+        /*transform: translate(300px);*/
+        /*transform: translateX(300px);*/
+        /*transform: translateX(-300px);*/
+        /*transform: translateY(-300px);*/
+        /*transform: translateY(300px);*/
+        /*transform: translate(300px,300px);*/
+        transform: translate(-300px,-300px);
+    }
+    to{
+        /*transform: scale(1) rotate(0deg) ;*/
+        background-color: yellow;
+    }
+}
+

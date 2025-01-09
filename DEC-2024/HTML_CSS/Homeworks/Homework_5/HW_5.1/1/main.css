@@ -1,0 +1,37 @@
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid black;
+    animation: triangle 5s linear infinite alternate;
+}
+
+@keyframes triangle {
+
+    from{
+        transform: rotate(720deg);
+    }
+    30% {
+        border-bottom: 120px solid blue;
+    }
+    50% {
+        border-bottom: 120px solid green;
+    }
+    80%{
+        border-bottom: 120px solid #B3A0CD;
+    }
+    to{
+        transform: rotate(-720deg) scale(3.5) ;
+        border-bottom: 120px solid red;
+    }
+}
