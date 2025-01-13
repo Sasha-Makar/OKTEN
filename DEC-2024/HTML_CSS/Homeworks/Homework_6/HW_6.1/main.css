@@ -1,0 +1,42 @@
+
+
+.wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wrap>div {
+    width: 50%;
+}
+.wrap>div>h2{
+text-align: center;
+}
+
+/*-------------------1-------------*/
+.box1>ul>li:nth-child(2n){
+    color: orange;
+}
+
+/*--------------------2---------------*/
+.box2>ul>li:nth-child(odd){
+    font-size: 22px;
+}
+
+/*--------------------3-------------*/
+.box3>ul>li:nth-child(2n+4)::after {
+    content: '!!!!!!';
+    color: red;
+}
+
+/*---------------------4-------------*/
+.box4>ul>li:last-of-type{
+    color: violet;
+}
+
+/*---------------------5-----------------*/
+.box5>ul>li:first-letter{
+    color: red;
+    font-size: 30px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson_6.6</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!--focus placeholder-->
+
+
+<form action="#" class="form-registration">
+    <!--    <p>enter your name</p>-->
+    <!--    <label>enter your name <br>-->
+    <!--    <input type="text" name="name" placeholder="enter your name">-->
+    <!--    </label>-->
+
+    <label for="name">enter your name</label>
+    <input type="text" name="name" id="name" placeholder="enter your name" required><sup>*</sup>
+
+    <label for="email">enter your email</label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com" required><sup>*</sup>
+
+    <label for="email">enter your password</label>
+    <input type="password" name="password" id="password" placeholder="qwerty" required><sup>*</sup>
+
+
+    <label for="age">enter your age</label>
+    <input type="number" name="age" id="age" min="18" max="100">
+
+    <br>
+    <br>
+    <br>
+
+    <input type="color" name=""><br>
+    <input type="image" name=""><br>
+    <input type="file" name=""><br>
+    <input type="date" name=""><br>
+    <input type="time" name=""><br>
+
+
+    <label>sex</label>
+    <label><input type="radio" name="gender" value="male">Man</label>
+    <label><input type="radio" name="gender" value="female">Woman</label>
+
+
+    <label>
+        <input type="checkbox" name="newsletter">підписатись на новини
+    </label>
+
+
+    <label for="lorem">Країна</label>
+    <select id="lorem">
+        <option value="">Оберіть країну</option>
+        <option value="ua">Україна</option>
+        <option value="usa">США</option>
+        <option value="ca">Канада</option>
+        <option value="uk">Великобританія</option>
+    </select>
+
+
+    <label for="phone"></label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value="x">Iphone X</option>
+            <option value="xr">Iphone XR</option>
+            <option value="xs">Iphone XS</option>
+        </optgroup>
+        <optgroup label="Sumsung">
+            <option value="sd7">S sd7</option>
+            <option value="sd747">XS sd747</option>
+            <option value="7d7">SRX 7d7</option>
+        </optgroup>
+    </select>
+
+
+    <label for="comment"></label>
+    <textarea name="" id="comment" cols="30" rows="10"></textarea>
+
+
+
+
+    <div>
+        <input type="submit" value="надіслати">
+        <input type="reset" value="скинути">
+    </div>
+
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>

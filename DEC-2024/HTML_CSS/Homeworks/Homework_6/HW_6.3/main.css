@@ -1,0 +1,76 @@
+* {
+    font-family: Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 80vh;
+    width: 30vw;
+}
+
+/*-----------login-------*/
+
+.login {
+    /*width: 100%;*/
+    height: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+}
+.login img {
+    width: 50%;
+}
+input[type='text'],input[type='password'] {
+    width: 65%;
+    padding: 3% 1%;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+input[type='submit'] {
+    width: 65%;
+    padding: 7px;
+    background-color: lightskyblue;
+    color: white;
+    margin-top: 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+form, .login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+form h3 {
+    color: #C1C1C1;
+}
+form p {
+    color: #5454D4;
+    margin: 15px 0;
+}
+form a {
+    color: #5454D4;
+    text-decoration: none;
+}
+
+
+/*---------------registration---------------*/
+
+.registration {
+    height: 17%;
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+.registration a {
+    color: #5454D4;
+    text-decoration: none;
+}

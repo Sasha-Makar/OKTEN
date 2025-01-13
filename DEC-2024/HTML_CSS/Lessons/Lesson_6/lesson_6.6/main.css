@@ -1,0 +1,39 @@
+label {
+    display: block;
+    margin-top: 10px;
+}
+form sup {
+    color: red;
+}
+/*input {*/
+/*    width: 150px;*/
+/*}*/
+
+textarea {
+    resize: none;
+    width: 100px;
+}
+
+
+
+.form-registration {
+    border: 3px solid lightgreen;
+    width: 30%;
+    border-radius: 20px;
+    padding: 50px;
+}
+input[type='text'] {
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 20px;
+    color: red;
+    background-color:lightskyblue;
+}
+
+input[type='text']::placeholder{
+    color: white;
+}
+
+input[type='text']:focus {
+    outline: 2px solid red;
+}

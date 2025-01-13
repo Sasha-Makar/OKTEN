@@ -1,0 +1,17 @@
+
+p.text.lorem {
+    color: blue;
+}
+p {
+    color: #57bbbf;
+}
+p.text {
+    color: #668066;
+}
+.text {
+    color: red;
+}
+
+section div p.lorem.pink {
+    color: pink;
+}

@@ -1,0 +1,28 @@
+p {
+    color: #57bbbf;
+}
+h1+p {
+    color: pink;
+}
+h1~p {
+    color: blue;
+}
+
+div p {
+    color: #a61e90;
+}
+div span {
+    color: red;
+}
+
+
+div>p>span{
+    color: green;
+}
+
+div>div>p {
+    color: orangered;
+}
+div>div>p>span {
+    color: aqua;
+}

@@ -1,0 +1,26 @@
+
+button:hover {
+    background-color: yellow;
+}
+button:active {
+    background-color: pink;
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
+a:visited {
+    color: blue;
+}
+
+li {
+    color: #3a61ab;
+}
+li::marker {
+    color: #a61e90;
+}
+p::selection {
+    background-color: black;
+    color: white;
+}

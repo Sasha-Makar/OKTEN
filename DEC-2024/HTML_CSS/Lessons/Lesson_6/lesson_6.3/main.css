@@ -1,0 +1,47 @@
+
+/*div :first-child {*/
+/*    color: red;*/
+/*}*/
+
+/*div ::first-letter {*/
+/*    color: #3a61ab;*/
+/*}*/
+
+div :last-child {
+    color: deeppink;
+}
+
+/*div p ::first-line {*/
+/*    color: green;*/
+/*}*/
+
+div p:last-of-type {
+    color: #3a61ab;
+}
+
+
+
+/*ul :nth-child(n){*/
+/*    color: #3a61ab;*/
+/*}*/
+
+/*ul :nth-child(2n){*/
+/*    color: #3a61ab;*/
+/*}*/
+/*ul :nth-child(3n){*/
+/*    color: #3a61ab;*/
+/*}*/
+/*ul :nth-child(2n+5){*/
+/*    color: #3a61ab;*/
+/*}*/
+/*ul :nth-child(odd){*/
+/*    color: #3a61ab;*/
+/*}*/
+
+/*ul :nth-child(even){*/
+/*    color: #3a61ab;*/
+/*}*/
+
+ul :nth-last-child(2n+3){
+    color: orangered;
+}
