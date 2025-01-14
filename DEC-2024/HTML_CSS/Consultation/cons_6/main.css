@@ -1,0 +1,29 @@
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+button {
+    width: 203px;
+    height: 60px;
+    background: #B3A0CD;
+    color: #1E1E1E;
+    font-family: "Bowlby One",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    border: none;
+}
+button:active {
+    background-color: black;
+    color: yellow;
+}
+
