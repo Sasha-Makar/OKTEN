@@ -1,0 +1,22 @@
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    position: relative;
+}
+.sale {
+    width: 50px;
+    height: 50px;
+    background-color: #5454D4;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    border-radius: 0 25px 0 25px ;
+}
