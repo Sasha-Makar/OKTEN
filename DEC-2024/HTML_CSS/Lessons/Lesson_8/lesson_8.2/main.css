@@ -1,0 +1,18 @@
+
+
+.item {
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+}
+.item-1 {
+    background-color: #5454D4;
+}
+.item-2 {
+    background-color: #D1EF53;
+}
+.item-3 {
+    background-color: #a61e90;
+}
+
+
