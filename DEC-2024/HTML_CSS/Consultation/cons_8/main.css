@@ -1,0 +1,22 @@
+/*:root {*/
+/*    --blue: var(#3248b7);*/
+/*    --red: var(#e30a0a);*/
+/*}*/
+:root {
+    --blue: #3248b7;
+    --red: #e30a0a;
+}
+
+
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color: var(--blue);
+    margin-bottom: 20px;
+}
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: var(--red);
+
+}
