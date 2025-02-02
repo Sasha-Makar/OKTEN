@@ -1,0 +1,143 @@
+@media (min-width: 1024px) {
+    .hero .container {
+        flex-direction: row;
+        /*gap: 115px;*/
+    }
+
+    .hero-img {
+        height: auto;
+        max-width: 35%;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .container {
+        --container-max-width: 1440px;
+        --container-padding: 95px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .title-link {
+        font-size: 20px;
+    }
+
+    .header .container {
+        grid-template-columns: auto 1fr auto;
+        gap: 50px;
+    }
+
+    .nav-list {
+        justify-content: flex-end;
+    }
+
+    /*======================hero====================*/
+    .hero {
+        padding-top: calc(164px + 85px);
+        padding-bottom: 263px;
+
+    }
+
+    .hero .container {
+        gap: 115px;
+        justify-content: space-between;
+    }
+
+    .hero-content {
+        max-width: 665px;
+    }
+
+
+    .hero-title {
+        font-size: 64px;
+    }
+
+    .hero-img {
+        max-width: 434px;
+    }
+
+    /*===============category=====================*/
+    .category-list {
+        --card-item: 5;
+    }
+
+    .category-list .item-title {
+        font-size: 24px;
+    }
+
+    /*=================gallery================*/
+    .gallery-list {
+        --card-item: 4;
+        --card-gap: 16px;
+    }
+
+    .gallery-list .item-link {
+        min-height: 425px;
+    }
+
+    .gallery-list .item-title {
+        font-size: 20px;
+    }
+
+    .gallery-list .author-title {
+        font-size: 16px;
+    }
+
+    /*===========================subscribe=======================*/
+    .subscribe .section-title {
+        font-size: 36px;
+    }
+
+
+    /*==============footer============================*/
+    .footer {
+        padding-top: 70px;
+
+    }
+
+    .footer-content {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 160px;
+    }
+
+    .footer-contacts {
+        min-width: 284px;
+        gap: 20px;
+        text-align: start;
+    }
+
+    .social-list {
+        margin-left: -10px;
+        justify-content: flex-start;
+
+    }
+
+    .footer-list {
+        --card-gap: 55px;
+    }
+
+    .footer-item-list {
+        gap: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
