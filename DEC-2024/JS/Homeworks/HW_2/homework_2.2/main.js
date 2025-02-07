@@ -163,6 +163,11 @@ console.log('---');
 varX = varX || 'default';
 console.log(varX);
 
+if (!varX){
+    varX = 'default';
+}
+console.log(varX);
+
 console.log('=====================');
 
 // #awLXL6TBzg
