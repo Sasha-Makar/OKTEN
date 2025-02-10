@@ -71,13 +71,11 @@ let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'an
 //
 // замість 'ITEM OF ARRAY' підставити елемент з масиву
 // щоб получився цілий список з даними з масиву
-
+document.write('<ul>');
 for (let item of listOfItems) {
-    document.write(`<ul>
-                    <li>${item}</li>
-                    </ul>`)
+    document.write(`<li>${item}</li>`)
 }
-
+document.write('</ul>');
 
 document.write('======================-------------------------------------===========================' + '<br>');
 document.write('======================-------------------------------------===========================' + '<br>');
@@ -187,3 +185,5 @@ for (let user of users) {
 
 
 console.log('========----END---------========');
+
+
