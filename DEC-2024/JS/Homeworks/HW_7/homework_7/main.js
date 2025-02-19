@@ -14,6 +14,7 @@ function User(id, name, surname, email, phone) {
     this.phone = phone;
 }
 
+
 let user = new User(1, 'Oleg', 'Kokosov', 'qwe@gmail.com', '+380987777777');
 console.log(user);
 
