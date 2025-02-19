@@ -389,6 +389,7 @@ console.log('============');
 
 
 // foreach
+
 Array.prototype.myForEach = function (arrCallback) {
     for (let i = 0; i < this.length; i++) {
         arrCallback(this[i], i, this);
@@ -400,6 +401,7 @@ console.log(array);
 array.myForEach(item => console.log(item));
 
 console.log('***');
+
 
 //filter
 

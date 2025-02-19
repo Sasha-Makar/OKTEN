@@ -84,3 +84,5 @@ order (поле є масивом зі списком товарів)
 #gsKLAsNWM
 *Через Array.prototype. створити
 власний foreach, filter
+
+'-------END----'
