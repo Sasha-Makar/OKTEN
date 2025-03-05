@@ -1,0 +1,1 @@
+//https://owu.com.ua/modules/javascript?videoId=64
